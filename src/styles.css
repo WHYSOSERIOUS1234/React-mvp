@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+    background-image: url('/Users/anthonyengland/Desktop/front-end-mvp/src/component/2358317.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.player {
+    display:block;
+    background-color: black;
+    margin:0px auto;
+    padding :50px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+img {
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.newSong {
+  text-align: center;
+
+}
